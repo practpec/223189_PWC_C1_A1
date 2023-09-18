@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://a-z-animals.com/wp-content/themes/aza-next/assets/images/logo/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+    <title>Animal Encyclopedia With Facts, Pictures </title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <button id="cambiar-tema"> <i id= "icono" class="fa-regular fa-sun"></i></button>
+        <div class="estetico"> <div class="header-logo">
+            <a><img class="logo" src="https://a-z-animals.com/wp-content/themes/aza-next/assets/images/logo/logo.png" height="70" width="100" alt="AZ Animals Logo"></a>
+            
+        </div>
+         <span class="nav-bar" id="btnMenu"><i class="fa-solid fa-bars"></i></span></div>
+         <nav class="main-nav">
+       
+            <ul class="menu" id="menu">
+                <li class="menu-item"><a class="menu-link" >All Animals</a></li>
+                <li class="menu-item container-submenu"><a class="menu-link submenu-btn" href="#">Animals List <i class="fa-solid fa-sort-down"></i></a>
+                <ul class="submenu">
+                    <li class="menu-item"><a href="" class="menu-link">By Starting Letter</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">By  Scientific Name</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">By Class</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">By Location</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Endangered</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Mammals</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Reptiles</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Fish</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Birds</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Amphibians</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Reference</a></li>
+                </ul></li>
+                <li class="menu-item container-submenu"><a class="menu-link submenu-btn" href="#">Pets <i class="fa-solid fa-sort-down"></i></a>
+                <ul class="submenu">
+                    <li class="menu-item"><a href="" class="menu-link">All Pets</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Cat Breeds</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Dog Breeds</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Pet Birds</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Pet Rodents</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Exotic Pets</a></li>
+                    <li class="menu-item"><a href="" class="menu-link">Pet Fish</a></li>
+                </ul></li>
+                <li class="menu-item container-submenu"><a class="menu-link submenu-btn" href="#">Places <i class="fa-solid fa-sort-down"></i></a>
+                    <ul class="submenu">
+                        <li class="menu-item"><a href="" class="menu-link">All Places</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Aquariums</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Islands</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Lakes</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Mountains</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Parks</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Rivers</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Waterfalls</a></li>
+                    </ul></li>
+                <li class="menu-item"><a class="menu-link" href="#">Reviews</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Articles</a></li>
+                <li class="menu-item container-submenu"><a class="menu-link submenu-btn"href="#">Quizzes <i class="fa-solid fa-sort-down"></i></a>
+                    <ul class="submenu">
+                        <li class="menu-item"><a href="" class="menu-link">All Quizzes</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Snake Quiz</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Dog Quiz</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Cat Quiz</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">Flags of the World</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">State Flags</a></li>
+                    </ul></li>
+                    <li class="menu-item">
+                        <div class="header-busqueda dentro-menu">
+                        <form action="#" method="GET">
+                            <input type="text" name="busqueda" placeholder="Buscar...">
+                            <button type="submit">Buscar</button>
+                        </form>
+                    </div></li>
+                    
+            </ul>
+            
+         </nav></header>
+    <div class="contenedor">
+        <main>
+            <div class="image-container">
+                <img id="slider-image" src="https://a-z-animals.com/media/az-banner-bg.jpg" alt="Imagen">
+                <div class="image-text">
+                    <h1>Animals!</h1>
+                    <p>
+                        Discover the strongest, smartest, and fastest animals in the world by searching below, or scroll to see all animals listed from A-Z. We are the largest website of our kind for wild animal and pet lovers worldwide!
+                    </p>
+                    <button id="botonAlerta" class="botonbuscar">See them all!</button>
+                </div>
+            </div>
+            
+            <div class="">
+                <p class="texto">We believe that if people know more about the world’s creatures they will better care for them. That’s why we add new animals for you to discover – each and every day! Learn about any animal using the search box below or<a class="linkverde" href=""> subscribe to our YouTube Channel</a>. Also be sure to check out our growing list of <a href="" class="linkverde"> Animal Quizzes</a> and<a href="" class="linkverde"> Web Stories.</a>  </p>
+           
+           <div class="elemento-contenedor"><div class="elemento-con-degradado"><h2>Discover Your Favorite Animal Today!</h2></div>
+    </div> 
+    
+    <p>Find your favorite Animals!</p>
+    <div class="header-busqueda2">
+        <form action="#" method="GET">
+            <input type="text" name="busqueda" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+     <div id="player"></div>
+    <div class="elemento-contenedor"><div class="elemento-con-degradado"><h2>Latest from A-Z Animals</h2></div>
+    </div> 
+
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/animals/images/original/iStock-1132413864-300x200.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">See a Big Black Bear Interrupt a Group of Hikers in the Smokey Mountains</a></h2>
+            <p class="text">
+                There’s not one, but two black bears in this wonderful clip that you can check out here. In it, we join a group of hikers walking through some woods in… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Sharon Parry</a> 20 mins ago</p>
+        </div>
+    </div>
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/2023/09/GettyImages-1640312609-300x200.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Baby Owl: 8 Adorable Pictures and 10 Amazing Facts</a></h2>
+            <p class="text">
+                How cute are baby owls? These little balls of fluff hardly resemble the fierce predators they will one day become. But one day they will look just like their parents… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Tavia Fuller Armstrong 
+
+            </a> 1 hour ago</p>
+        </div>
+    </div>
+    
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/2023/07/shutterstock-126730232-huge-licensed-scaled-300x200.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Rainy Season In Seattle: Peak Timing and Why It Rains So Much</a></h2>
+            <p class="text">
+                The city of Seattle in Washington state often finds itself under a thick blanket of clouds, either shrouded in drizzle or in pouring rain. This is a familiar image to… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Shreya Agrawal </a> 2 hour ago</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/2022/09/iStock-1375137262-300x200.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Rainy Season In Seattle: Peak Timing and Why It Rains So Much</a></h2>
+            <p class="text">
+                The city of Seattle in Washington state often finds itself under a thick blanket of clouds, either shrouded in drizzle or in pouring rain. This is a familiar image to… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Shreya Agrawal </a> 2 hour ago</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/2022/08/Black-Racer-Snake-in-Tennessee-300x214.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Rainy Season In Seattle: Peak Timing and Why It Rains So Much</a></h2>
+            <p class="text">
+                The city of Seattle in Washington state often finds itself under a thick blanket of clouds, either shrouded in drizzle or in pouring rain. This is a familiar image to… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Shreya Agrawal </a> 2 hour ago</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/2023/01/Kemps-ridley-300x202.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Rainy Season In Seattle: Peak Timing and Why It Rains So Much</a></h2>
+            <p class="text">
+                The city of Seattle in Washington state often finds itself under a thick blanket of clouds, either shrouded in drizzle or in pouring rain. This is a familiar image to… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Shreya Agrawal </a> 2 hour ago</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/2022/10/shutterstock_1323675554-300x200.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Rainy Season In Seattle: Peak Timing and Why It Rains So Much</a></h2>
+            <p class="text">
+                The city of Seattle in Washington state often finds itself under a thick blanket of clouds, either shrouded in drizzle or in pouring rain. This is a familiar image to… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Shreya Agrawal </a> 2 hour ago</p>
+        </div>
+    </div>
+
+
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/2023/08/shutterstock-1310489780-huge-licensed-scaled-300x200.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Rainy Season In Seattle: Peak Timing and Why It Rains So Much</a></h2>
+            <p class="text">
+                The city of Seattle in Washington state often finds itself under a thick blanket of clouds, either shrouded in drizzle or in pouring rain. This is a familiar image to… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Shreya Agrawal </a> 2 hour ago</p>
+        </div>
+    </div>
+    
+
+    <div class="otraspaginas">
+        <img src="https://a-z-animals.com/media/2022/12/shutterstock_751043794-300x200.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Rainy Season In Seattle: Peak Timing and Why It Rains So Much</a></h2>
+            <p class="text">
+                The city of Seattle in Washington state often finds itself under a thick blanket of clouds, either shrouded in drizzle or in pouring rain. This is a familiar image to… <a class="text" href="otra_pagina.html">Read More</a></p>
+            
+            <p class="text"> By <a href="otra_pagina.html"> Shreya Agrawal </a> 2 hour ago</p>
+        </div>
+    </div>
+    <!----------separacion                  ------------------------------------->
+    <div class="elemento-contenedor"><div class="elemento-con-degradado"><h2>The 7 Main Types of Animals And Their Characteristics</h2></div>
+    <p>There are many different types of animals in the world, but some of the largest categories include:</p>
+    </div> 
+
+    <div class="otraspaginas2">
+        <img src="https://a-z-animals.com/media/2021/01/Wild-Chameleon-Reptile-With-Beautiful-Colors-400x300.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Reptiles</a></h2>
+            <p class="text">
+                <a hreft="otra_pagina.html">Lizards</a>, dinosaurs, crocodiles, turtles, and snakes – all belong to that ancient and stout class of animals known as the reptiles. This is a diverse group with more than 10,000 different species and a huge representation in the fossil record. Once the dominant land vertebrates on the planet, reptiles still occupy just about every single ecosystem outside of the extreme north and south..</p>
+            
+            <p class="text"> Se complete <a href="otra_pagina.html"> list of birds </a>.</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas2">
+        <img src="https://a-z-animals.com/media/2021/01/Betta-fish-siamese-fighting-fish-400x300.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Fish</a></h2>
+            <p class="text">
+                Birds, members of the class Aves, include more than 10,400 living species. Their feathers distinguish them from all other classes of animal; no other animals on earth have them. If you see an animal with feathers, it’s undoubtedly a bird. Like mammals, birds are warm-blooded vertebrates with four-chambered hearts. However, they are more closely related to reptiles and are believed to have evolved from dinosaurs.</p>
+            
+            <p class="text"> Se complete <a href="otra_pagina.html"> list of birds </a>.</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas2">
+        <img src="https://a-z-animals.com/media/2021/01/spring-colored-birds-flirting-400x300.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Birds</a></h2>
+            <p class="text">
+                Birds, members of the class Aves, include more than 10,400 living species. Their feathers distinguish them from all other classes of animal; no other animals on earth have them. If you see an animal with feathers, it’s undoubtedly a bird. Like mammals, birds are warm-blooded vertebrates with four-chambered hearts. However, they are more closely related to reptiles and are believed to have evolved from dinosaurs.</p>
+            
+            <p class="text"> Se complete <a href="otra_pagina.html"> list of birds </a>.</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas2">
+        <img src="https://a-z-animals.com/media/2021/01/Golden-eyed-leaf-frog-400x300.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Amphibians</a></h2>
+            <p class="text">
+                Birds, members of the class Aves, include more than 10,400 living species. Their feathers distinguish them from all other classes of animal; no other animals on earth have them. If you see an animal with feathers, it’s undoubtedly a bird. Like mammals, birds are warm-blooded vertebrates with four-chambered hearts. However, they are more closely related to reptiles and are believed to have evolved from dinosaurs.</p>
+            
+            <p class="text"> Se complete <a href="otra_pagina.html"> list of birds </a>.</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas2">
+        <img src="https://a-z-animals.com/media/2021/01/Jellyfish-with-neon-glow-light-effect-in-sea-aquarium-in-Sentosa-Singapore-400x300.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Invertebrates</a></h2>
+            <p class="text">
+                Birds, members of the class Aves, include more than 10,400 living species. Their feathers distinguish them from all other classes of animal; no other animals on earth have them. If you see an animal with feathers, it’s undoubtedly a bird. Like mammals, birds are warm-blooded vertebrates with four-chambered hearts. However, they are more closely related to reptiles and are believed to have evolved from dinosaurs.</p>
+            
+            <p class="text"> Se complete <a href="otra_pagina.html"> list of birds </a>.</p>
+        </div>
+    </div>
+
+    <div class="otraspaginas2">
+        <img src="https://a-z-animals.com/media/2021/01/Queen-butterfly-danaus-gilippus-on-blue-hydrangea-flowers-400x300.jpg" alt="Imagen" class="imagenes">
+        <div>
+            <h2 class="title"><a href="tu_pagina_destino.html">Insects</a></h2>
+            <p class="text">
+                Birds, members of the class Aves, include more than 10,400 living species. Their feathers distinguish them from all other classes of animal; no other animals on earth have them. If you see an animal with feathers, it’s undoubtedly a bird. Like mammals, birds are warm-blooded vertebrates with four-chambered hearts. However, they are more closely related to reptiles and are believed to have evolved from dinosaurs.</p>
+            
+            <p class="text"> Se complete <a href="otra_pagina.html"> list of birds </a>.</p>
+        </div>
+    </div>
+
+
+    <div class="elemento-contenedor"><div class="elemento-con-degradado"><h2>Types of Animals By Letter: Explore A to Z Animal Lists</h2></div>
+</div> 
+<p>See lists of animals that start with every letter of the alphabet, from A to Z. We track all types of animals like lions and tigers, dogs and cats, even dinosaurs and spiders. Choose your favorite letter below to see all animals that start with it today.</p>
+<div class="contenedor">
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/2022/10/Asian-Longhorn-Beetle-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/2022/05/Brachiosaurus-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/2023/08/shutterstock-691628314-huge-licensed-scaled-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+</div>
+<div class="contenedor">
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/american-alsatian-1-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/2021/03/Chipoo-header-2-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/2019/11/Duck-header-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+</div>
+<div class="contenedor">
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/2021/10/shutterstock_241587391-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/FlukeCloseUp-e1656119384188-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/2019/11/Kiwi-close-up-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+</div>
+<div class="contenedor">
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/2022/10/Labouts-Fairy-Wrasse-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+    <div class="columna">
+        <div class="imagen-con-texto2">
+            <img src="https://a-z-animals.com/media/hummingbird-2-400x300.jpg" alt="Imagen">
+            <div class="texto2"><a>A Huskydoodle
+                Animals that Start with H</a>
+                Example: The Huskydoodle</div>
+        </div>
+    </div>
+    <div class="columna">
+            
+    </div>
+    <div class="elemento-contenedor"><div class="elemento-con-degradado"><h2 id="elemento">Animal Reference Guides And Educational Resources</h2></div>
+            </div> 
+            <p>We believe if people are more educated about the world’s animals, they will better car for them. That’s why we are building the world’s greatest animal encyclopedia, completely free to you. Please take a moment to learn more about animals today using these helpful guides and resources:</p>
+            <li><a>Reference Library </a>– See helpful information on conservation, classification, animal evolution, and more </li>
+                <li><a>Glossary</a> – A list of scientific and technical animal terms, with definitions</li>
+                <li> <a>Animal Habitats</a> – Learn all about different animal habitats</li>
+                <li><a>Diet</a> – The different animal diets like omnivores, herbivores, and carnivores defined with examples</li>
+                <li><a>Behavior</a> – Learn all about animal intelligence, communication, community, language, migration, and more.</li>
+</div></div>
+        </main>
+        <aside>
+
+            <div class="container">
+                <div class="elemento-contenedor"><div class="elemento-con-degradado"><h4 id="elemento">Animal of the Day</h4></div>
+            </div> 
+            <div class="imagen-con-texto2">
+                <img src="https://a-z-animals.com/media/2022/10/Asian-Longhorn-Beetle-400x300.jpg" alt="Imagen">
+                <div class="texto2"><a>A Huskydoodle
+                    Animals that Start with H</a>
+                    Example: The Huskydoodle</div>
+            </div>
+            <div class="imagenaside" style="background-image: url('https://a-z-animals.com/media/az-banner-bg.jpg');" ></div>
+            
+            <div class="elemento-contenedor"><div class="elemento-con-degradado"><a><h5>The 8 Best Pet Products on Amazon This September</h5></a></div>
+            </div>
+            <div class="imagenaside">
+            <img src="https://a-z-animals.com/media/2022/06/group-of-pets-posing-around-a-border-collie-dog-cat-ferret-rabbit-picture-id1296353202-300x180.jpg" height="100%" width="100%"alt="AZ Animals Logo"></div>
+            
+            <div class="elemento-contenedor"><div class="elemento-con-degradado"><a><h5>Discover Why Maine Is Called the Pine Tree State</h5></a></div>
+            </div>
+            <div class="imagenaside">
+                <img  src="https://a-z-animals.com/media/2023/07/shutterstock-650868691-huge-licensed-scaled-300x200.jpg" height="100%" width="100%"alt="AZ Animals Logo"></div>
+            
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="footer2">
+        <div class="footer-container">
+          <div class="footer-item"><a href="#">About Us</a></div>
+          <div class="footer-item"><a href="#">Contact Us</a></div>
+          <div class="footer-item"><a href="#">Sourcing Our Content</a></div>
+          <div class="footer-item"><a href="#">Privacy Policy</a></div>
+          <div class="footer-item"><a href="#">Terms and Conditions</a></div>
+        </div>
+        <div class="footer-affiliate">
+          <p>As an Amazon Associate I earn from qualifying purchases.</p>
+          <a href="#">Learn more about us & read our affiliate disclosure.</a>
+        </div></div>
+        <div class="footer-content">
+            <div class="social-icons">
+                <img src="https://a-z-animals.com/wp-content/themes/aza-next/assets/images/social-icons/twitter-icon2.png" alt="Twitter">
+                <img src="https://a-z-animals.com/wp-content/themes/aza-next/assets/images/social-icons/rss-icon2.png" alt="RSS">
+                <img src="https://a-z-animals.com/wp-content/themes/aza-next/assets/images/social-icons/facebook-icon2.png" alt="Facebook">
+            </div>
+            <p class="copyright">&copy; 2008 - 2023 A-Z Animals</p>
+        </div>
+      </footer>
+      
+      
+  
+    <script src="./js/script.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
